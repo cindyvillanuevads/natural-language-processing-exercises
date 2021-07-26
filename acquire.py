@@ -19,7 +19,7 @@ def get_codeup_blog (url):
     content = soup.find('div', class_='jupiterx-post-content').get_text(strip = True)
     
     #get the title
-    title = get_article_parts (url,'h1', 'jupiterx-post-title'  )
+    title = soup.find('h1', class_='jupiterx-post-title').text
 
     #get the date
     published_date = soup.time.text
