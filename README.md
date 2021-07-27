@@ -7,6 +7,11 @@ ________________
 
 **This repo contains lessons and exercises about NLP.**
 
+- Regular Expressions
+- Data Acquisition
+- Data Preparation
+- Data Exploration
+- Modeling
 
 # Regex
 
